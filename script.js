@@ -1,4 +1,4 @@
-fetch("https://certifiedcode.editorx.io/highlight/_functions/config/" + _scrollbarConfig)
+fetch("https://certifiedcode.editorx.io/highlight/_functions/config/" + _highlightConfig)
       .then((res) => res.text())
       .then((style) => {
         const styleTag = document.createElement("style");
